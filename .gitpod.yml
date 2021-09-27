@@ -1,9 +1,11 @@
-# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+# CodingCoffee Gitpod Examples more coures:  https://www.codingcoffee.org
 tasks:
-  - init: echo 'this is c c++ hello gitpod example' # runs during prebuild
-    command: echo 'build hello.c and hello.cpp' && gcc  hello.c -o a1.out  && g++  hello.cpp -o a2.out
+  - init: echo 'this is python java kotlin javascript hello gitpod example' # runs during prebuild
+    command: >
+    curl -s https://get.sdkman.io | bash && 
+    sdk install kotlin    
 
-# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+# CodingCoffee Gitpod Examples more coures:  https://www.codingcoffee.org
 ports:
   - port: 3000
     onOpen: open-preview
