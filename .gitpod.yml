@@ -1,8 +1,7 @@
 # CodingCoffee Gitpod Examples more coures:  https://www.codingcoffee.org
 tasks:
   - init: echo 'this is python java kotlin javascript hello gitpod example' # runs during prebuild
-    command: >
-    curl -s https://get.sdkman.io | bash && sdk install kotlin    
+    command: curl -s https://get.sdkman.io | bash && sdk install kotlin    
 
 # CodingCoffee Gitpod Examples more coures:  https://www.codingcoffee.org
 ports:
